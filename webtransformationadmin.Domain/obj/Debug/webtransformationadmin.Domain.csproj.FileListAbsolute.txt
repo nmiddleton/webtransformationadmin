@@ -1,0 +1,5 @@
+D:\GMI\infrastructure\tools\webtransformationadmin\webtransformationadmin.Domain\bin\Debug\webtransformationadmin.Domain.dll
+D:\GMI\infrastructure\tools\webtransformationadmin\webtransformationadmin.Domain\bin\Debug\webtransformationadmin.Domain.pdb
+D:\GMI\infrastructure\tools\webtransformationadmin\webtransformationadmin.Domain\obj\Debug\ResolveAssemblyReference.cache
+D:\GMI\infrastructure\tools\webtransformationadmin\webtransformationadmin.Domain\obj\Debug\webtransformationadmin.Domain.dll
+D:\GMI\infrastructure\tools\webtransformationadmin\webtransformationadmin.Domain\obj\Debug\webtransformationadmin.Domain.pdb

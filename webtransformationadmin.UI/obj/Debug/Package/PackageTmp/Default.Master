@@ -1,0 +1,65 @@
+﻿<!--
+                           $Id: Default.Master 26252 2013-07-01 10:20:55Z neil.middleton $
+              $LastChangedDate: 2013-07-01 11:20:55 +0100 (Mon, 01 Jul 2013) $
+          $LastChangedRevision: 26252 $
+                $LastChangedBy: neil.middleton $
+                      $HeadURL: https://sami.cdt.int.thomsonreuters.com/svn/gms_gmi/trunk/infrastructure/tools/webtransformationadmin/webtransformationadmin.UI/Default.Master $
+-->
+
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="DefaultMasterPage" Codebehind="Default.Master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title><asp:ContentPlaceHolder id="TitleContentPlaceHolder" runat="server" /></title>
+</head>
+
+<body style="font-family:'lucida grande', arial, tahoma, verdana, sans-serif; margin:0px; font-size: 13px;" >
+    <form id="form1" runat="server">
+        <table width="100%" cellpadding="5px">
+			<!-- HEADER : BEGIN -->
+            <thead>
+                <tr>
+                    <td style="border-bottom-style:solid; border-bottom-width:5px; border-bottom-color:#FFC745;" >
+                        <img alt="LOGO" src="Images/Logo_thin.jpg" />
+                    </td>
+                </tr>
+            </thead>
+			<!-- HEADER : END -->
+
+			<!-- BODY : BEGIN -->
+            <tbody>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder id="BodyContentPlaceHolder" runat="server" />
+                    </td>
+                </tr>
+            </tbody>
+			<!-- BODY : END -->
+
+			<!-- FOOTER : BEGIN -->
+            <tfoot>
+                <tr>
+                    <td style="border-top-style:solid; border-top-width:5px; border-top-color:#FFC745" >
+                        <table border="0px" cellpadding="0px" cellspacing="0px" width="100%">
+                            <tr>
+                                <td>&nbsp;&nbsp;&nbsp;&copy;&nbsp;&nbsp;&nbsp;2013&nbsp;&nbsp;&nbsp;THOMSON&nbsp;REUTERS</td>
+                                <td align="right"><asp:Label ID="VersionLabel" runat="server" 
+                                        ToolTip="This page is an internal development tool, not for general customer use. As such it is not supported by CIS, but on a best efforts basis" >Site Admin: Neil Middleton</asp:Label>
+                                    &nbsp;&nbsp;&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tfoot>
+			<!-- FOOTER : END -->
+        </table>
+
+        <!-- DEBUG : BEGIN -->
+        <asp:ContentPlaceHolder id="DebugContentPlaceHolder" runat="server" />
+        <!-- DEBUG : END -->
+    </form>
+</body>
+
+</html>
